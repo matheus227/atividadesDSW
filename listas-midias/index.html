@@ -6,15 +6,9 @@
         <title>Listas e Mídias em HTML</title>
     </head>
     <body>
-        <style>
-            .centro {
-                text-align: center;
-            }
-        </style>
+        <h1>Listas e Mídias em HTML</h1>
 
-        <h1 class="centro">Listas e Mídias em HTML</h1>
-
-        <h3 class="centro"><strong>Lista Não Ordenada</strong></h3>
+        <h3><strong>Lista Não Ordenada</strong></h3>
 
         <p><strong>Tecnologias Web:</strong></p>
 
@@ -26,7 +20,7 @@
             <li>Navegadores</li>
         </ul>
 
-        <h3 class="centro"><strong>Lista Ordenada</strong></h3>
+        <h3><strong>Lista Ordenada</strong></h3>
         <p><strong>Passo a passo para criar um site:</strong></p>
 
         <ol>
@@ -42,7 +36,7 @@
             <li>salve tudo com (ctrl + s)</li>
         </ol>
 
-        <h3 class="centro">Lista de definição</h3>
+        <h3>Lista de definição</h3>
 
         <dl>
             <dt><strong>HTML</strong></dt>
@@ -52,32 +46,69 @@
             <dd>Responsável pelo estilo da página</dd>
 
             <dt><strong>Navegador</strong></dt>
-            <dd>Navegadores pegam o código HTML, CSS, JS e transforma em algo visual e interativo</dd>
+            <dd>
+                Navegadores pegam o código HTML, CSS, JS e transforma em algo visual e interativo
+            </dd>
         </dl>
 
-        <h3 class="centro">Lista aninhada</h3>
+        <h3>Lista aninhada</h3>
 
         <ul>
-            <li>Front-end</li>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-            </ul>
-        
-            <li>Back-end</li>
-            <ul>
-                <li>C#</li>
-                <li>Python</li>
-            </ul>
+            <li>
+                Front-end
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </li>
+
+            <li>
+                Back-end
+                <ul>
+                    <li>C#</li>
+                    <li>Python</li>
+                </ul>
+            </li>
         </ul>
 
-        <h2 class="centro">Mídias</h2>
-        <h3 class="centro"><i>imagem:</i></h3>
-        <img src="imagens\patricio_jacacre.jpg" alt="img">
+        <h2>Mídias</h2>
+        <h3><i>imagem:</i></h3>
 
-        <h3 class="centro"><i>Vídeo:</i></h3>
-        <video src=""></video>
+        <img src="imagens/poesia(duque).png" />
 
+        <h3><i>Vídeo:</i></h3>
+
+        <video controls>
+            <source src="videos/despedidaVitroles.mp4" type="video/mp4" />
+        </video>
+        <br />
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5Hn58p-hYC0?si=zgoq9OCTQOgkWBDt"
+            title="YouTube"
+            frameborder="0"
+            allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+        ></iframe>
+        <!-- utilizei o incorporar no youtube -->
+        <!-- abaixo -->
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5Hn58p-hYC0?si=zgoq9OCTQOgkWBDt"
+            title="YouTube"
+        ></iframe>
     </body>
 </html>
