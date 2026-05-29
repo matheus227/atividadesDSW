@@ -1,0 +1,31 @@
+.block{
+    
+    display: block;
+    background-color: #ffff4f;
+}
+
+.inline {
+    display: inline;
+    background-color: #4f4fff;
+    
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: #ffa500;
+    margin: 10px auto;
+}
+
+
+.none {
+    display: inline
+}
+
+.none p {
+    display: none;
+}
+
+.nome:hover p {
+    display: inline;
+    background-color: #00ffff;
+}

@@ -1,0 +1,21 @@
+--formulários--
+
+Em html formulários são estruturas usadas para coletar informações do usuário dentro de uma página web.
+
+tag usada: <form>
+pode conter diversos elementos.
+-campos de texto;
+-senhas;
+-botões;
+-listas suspensas;
+-caixas de seleção.
+
+o formulário é a forma que o site usa para "conversar" com o usuário e recebe informações do mesmo.
+
+html não faz as coisas sozinhos, depende de outras linguagens para processar os dados. A mesma
+coisa para o formulário.
+Ex: JavaScript(valida); PHP/Python/Java/Node.js(processam e armazenam os dados no servidor);
+MySQL, etc(Banco De Dados).
+
+
+

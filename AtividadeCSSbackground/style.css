@@ -1,0 +1,24 @@
+.banner {
+  height: 250px;
+  background-color: #0000ff;
+  background-image: url("./source/capivara.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  /* background-position: center; */
+  background-position: top left;
+  /* background-position: left; */
+}
+
+.gradiente {
+  display: flex;
+  background: #333
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwz77m0lSZKzALonKPMqoZV_c7kYBfR5B8Iw&s") no-repeat center / cover;
+  height: 200px;
+  background: linear-gradient(
+    280deg,
+    rgba(253, 29, 29, 1) 49%,
+    rgba(252, 176, 69, 1) 79%
+  );
+}
