@@ -1,0 +1,121 @@
+/* ==================================================
+   RESET CSS PROFISSIONAL
+================================================== */
+
+/* 
+1. Usa box-sizing mais intuitivo.
+Padding e border entram no cálculo da largura.
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* 
+2. Remove margens padrões dos navegadores.
+*/
+
+*:not(dialog) {
+    margin: 0;
+}
+
+
+/* 
+3. Habilita animações modernas.
+*/
+
+@media (prefers-reduced-motion: no-preference) {
+
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+
+/* 
+4. Melhora altura das linhas.
+5. Melhora renderização de texto.
+*/
+
+body {
+
+    line-height: 1.5;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* 
+6. Melhora comportamento de mídias.
+*/
+
+img,
+picture,
+video,
+canvas,
+svg {
+
+    display: block;
+
+    max-width: 100%;
+}
+
+
+/* 
+7. Faz formulários herdarem fonte.
+*/
+
+input,
+button,
+textarea,
+select {
+
+    font: inherit;
+}
+
+
+/* 
+8. Evita quebra estranha de texto.
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    overflow-wrap: break-word;
+}
+
+
+/* 
+9. Melhora quebra de linhas.
+*/
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+
+/* 
+10. Cria contexto de empilhamento.
+*/
+
+#root,
+#__next {
+    isolation: isolate;
+}

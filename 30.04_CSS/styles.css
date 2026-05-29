@@ -1,0 +1,18 @@
+h2 {
+  color: orange;
+  font-size: 32px;
+}
+
+/* . é utilizado para classes e # para id */
+/* professor indica não usar id NO css. */
+#titulo{
+  font-weight: bold;
+  color: blue;
+}
+
+.paragrafo{
+    color: red;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

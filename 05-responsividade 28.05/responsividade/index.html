@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <!-- Define padrão de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- 
+        Faz o navegador adaptar o conteúdo
+        conforme o tamanho da tela
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula de Responsividade</title>
+
+    <!-- Arquivo CSS -->
+     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="topo">
+
+        <h1>Responsividade com HTML e CSS</h1>
+
+        <p>
+            Aula sobre Media Queries,
+            containers e adaptação de layouts.
+        </p>
+
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Card 1 -->
+        <section class="card">
+
+            <h2>O que é Responsividade?</h2>
+
+            <p>
+                Responsividade é a capacidade
+                de um site se adaptar
+                a diferentes tamanhos de tela.
+            </p>
+
+            <p>
+                Um sistema responsivo funciona corretamente em:
+            </p>
+
+            <ul>
+                <li>Celulares</li>
+                <li>Tablets</li>
+                <li>Notebooks</li>
+                <li>Monitores grandes</li>
+            </ul>
+
+        </section>
+
+        <!-- Card 2 -->
+        <section class="card">
+
+            <h2>O que é um Container?</h2>
+
+            <p>
+                Container é uma estrutura utilizada
+                para organizar elementos dentro da página.
+            </p>
+
+            <p>
+                Ele ajuda a:
+            </p>
+
+            <ul>
+                <li>Organizar layouts</li>
+                <li>Controlar largura</li>
+                <li>Centralizar conteúdos</li>
+                <li>Melhorar a estrutura visual</li>
+            </ul>
+
+        </section>
+
+        <!-- Card 3 -->
+        <section class="card">
+
+            <h2>Conceito de Mobile First</h2>
+
+            <p>
+                Mobile First é uma estratégia
+                onde o desenvolvimento começa
+                pelas telas menores.
+            </p>
+
+            <p>
+                Depois o layout é adaptado
+                para tablets e desktops.
+            </p>
+
+        </section>
+
+        <!-- Card 4 -->
+        <section class="card">
+
+            <h2>Media Queries</h2>
+
+            <p>
+                Media Queries são regras do CSS
+                utilizadas para alterar estilos
+                dependendo do tamanho da tela.
+            </p>
+
+            <h3>Exemplo:</h3>
+
+<pre>
+@media (max-width: 600px) {
+
+    body {
+        background-color: lightblue;
+    }
+
+}
+</pre>
+
+        </section>
+
+        <!-- Card 5 -->
+        <section class="card">
+
+            <h2>Padrões de Quebra de Tela</h2>
+
+            <p>
+                Alguns tamanhos são muito utilizados
+                para adaptação responsiva:
+            </p>
+
+<pre>
+320px até 480px  -> Celulares pequenos
+
+481px até 768px  -> Tablets e celulares maiores
+
+769px até 1024px -> Tablets na horizontal e notebooks
+
+1025px ou mais   -> Desktops
+</pre>
+
+        </section>
+
+    </main>
+
+    <!-- 
+        Container de exemplo
+    -->
+    <section class="container-exemplo">
+
+        <div class="caixa caixa1">
+            Caixa 1
+        </div>
+
+        <div class="caixa caixa2">
+            Caixa 2
+        </div>
+
+        <div class="caixa caixa3">
+            Caixa 3
+        </div>
+
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+
+        <p>
+            Aula de Responsividade - HTML e CSS
+        </p>
+
+    </footer>
+
+</body>
+</html>

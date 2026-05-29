@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula CSS</title>
+    <!-- para facilitar, use link:css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- totalmente ineficiente a forma inline abaixo. Se caso quiser mudar todas as cores, precisaria mudar 
+um por um imagine isso em um código extenso e de varias e varias páginas.
+
+   <h2 style="color: blue; font-size: 64px; text-transform: uppercase">
+      Aula introdutória ao CSS
+    </h2> 
+    -->
+
+    <h2 id="titulo">Aula CSS</h2>
+    
+    <!-- o navegador prioriza sempre o css inline, porque prioriza o que está dentro do html. 
+Ou seja não prioriza o css externo.  -->
+
+    <!-- segundo em prioridade: 
+    <style>
+      h2 {
+        color: red;
+        font-size: 64px;
+      }
+    </style> 
+    -->
+
+    <!-- terceiro em prioridade: css externo -->
+
+    <p class="paragrafo">ola</p>
+
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* 
+    para pegar uma fonte que não está instalada
+    no pc, não vai aparecer no css como sugestão.
+    então utilize um site: fonts.google.com
+    */
+}
+
+.titulo{
+    font-weight: 600;
+    /* weight vai de 100 a 900, porem tem bold, normal, lighter...
+    que correspondem a fontes mais finas ou mais grossas, ou seja negrito ou mais fino */
+
+}
+.subtitulo{
+    font-weight: 500;
+    font-style: oblique;
+    /*fonte style é tipo o italico etc*/
+}
+
+p {
+  font-size: 20px; /*16px é o tamanho de fonte padrão para paragrafos normais*/
+}
+
+.link {
+  /*uma classe para mudar a cor de um link*/
+  color: #ff0000;
+}
+
+.fonte {
+  /*. cria uma classe*/
+  color: #000000;
+  font-size: 16px;
+  text-align: center; /*alinha o texto*/
+  line-height: 150%; /*relativo ao tamanho da fonte, 125% do tamanho da fonte*/
+  /*line-height --> espaçamento entre linhas*/
+  word-spacing: 5px; /*espaçamento entre palavras*/
+  letter-spacing: normal; /*espaçamento entre letras*/
+}
+
+.fonte strong {
+  /*colocar uma classe já existente e na frente algo de dentro daquela tag seleciona algo dentro da tag e altera*/
+  color: #ff0000;
+  text-transform: uppercase;
+  font-size: 1em;
+  /* 1em equivale a um tamanho de fonte relativo ao pai
+    ou seja, se esta definido em "p" 16px, 1em equivale a 16px.
+    porém é multiplicativo, ou seja 2em equivale ao dobro, ou seja
+    32px. assim por diante.
+    */
+}

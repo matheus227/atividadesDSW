@@ -1,0 +1,287 @@
+body {
+
+    /* Fonte padrão */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Cor de fundo */
+    background-color: #f4f4f4;
+
+    /* Cor do texto */
+    color: #333333;
+
+    /* Espaçamento interno */
+    padding: 20px;
+}
+
+/* 
+===================================================
+TOPO
+===================================================
+*/
+
+.topo {
+
+    /* Centraliza textos */
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.topo h1 {
+
+    /* Tamanho do título */
+    font-size: 40px;
+
+    margin-bottom: 10px;
+}
+
+/* 
+===================================================
+CARDS
+===================================================
+*/
+
+.card {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+
+    color: #0044aa;
+
+    margin-bottom: 10px;
+}
+
+.card h3 {
+
+    margin-top: 15px;
+
+    margin-bottom: 10px;
+}
+
+/* 
+===================================================
+LISTAS
+===================================================
+*/
+
+ul {
+
+    margin-top: 10px;
+}
+
+/* 
+===================================================
+EXEMPLO DE CÓDIGO
+===================================================
+*/
+
+pre {
+
+    background-color: #222222;
+
+    color: #00ff88;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    overflow-x: auto;
+
+    margin-top: 10px;
+}
+
+/* 
+===================================================
+CONTAINER
+===================================================
+*/
+
+.container-exemplo {
+
+    /* 
+        Display flex:
+        organiza elementos lado a lado
+    */
+    display: flex;
+
+    /* Espaço entre elementos */
+    gap: 20px;
+
+    /* Centraliza horizontalmente */
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+/* 
+===================================================
+CAIXAS
+===================================================
+*/
+
+.caixa {
+
+    width: 200px;
+
+    height: 120px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    border-radius: 10px;
+}
+
+.caixa1 {
+
+    background-color: crimson;
+}
+
+.caixa2 {
+
+    background-color: royalblue;
+}
+
+.caixa3 {
+
+    background-color: seagreen;
+}
+
+/* 
+===================================================
+RODAPÉ
+===================================================
+*/
+
+.rodape {
+
+    text-align: center;
+
+    margin-top: 40px;
+
+    padding: 20px;
+}
+
+/* 
+===================================================
+BREAKPOINTS MAIS UTILIZADOS
+
+320px até 480px  -> Celulares pequenos
+481px até 768px  -> Tablets
+769px até 1024px -> Notebooks/Tablets horizontal
+1025px ou mais   -> Desktop
+===================================================
+*/
+
+/* 
+===================================================
+MEDIA QUERY - NOTEBOOK / TABLET HORIZONTAL
+
+Aplica estilos até 1024px
+===================================================
+*/
+
+@media (max-width: 1024px) {
+
+    body {
+
+        background-color: #ddeeff;
+    }
+
+    .topo h1 {
+
+        font-size: 34px;
+    }
+}
+
+/* 
+===================================================
+MEDIA QUERY - TABLET
+
+Aplica estilos até 768px
+===================================================
+*/
+
+@media (max-width: 768px) {
+
+    .container-exemplo {
+
+        /* 
+            Altera flex-direction
+            de row para column
+        */
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .caixa {
+
+        width: 80%;
+    }
+
+    body {
+
+        background-color: #fff0d9;
+    }
+}
+
+/* 
+===================================================
+MEDIA QUERY - CELULARES
+
+Aplica estilos até 480px
+===================================================
+*/
+
+@media (max-width: 480px) {
+
+    .topo h1 {
+
+        font-size: 28px;
+    }
+
+    .caixa1 {
+
+        /* Mudança de cor */
+        background-color: black;
+    }
+
+    .caixa2 {
+
+        background-color: darkorange;
+    }
+
+    .caixa3 {
+
+        background-color: purple;
+    }
+
+    .card {
+
+        padding: 15px;
+    }
+
+    body {
+
+        background-color: #e4ffd9;
+    }
+}
